@@ -1,0 +1,12 @@
+Próximos Pasos (Plan de Trabajo):
+
+Arreglar Errores Menores: Instalar Rust, quitar @vercel/analytics, actualizar tauri.conf.json para v2.
+Generación XML: Plantillas XSD, validación real.
+Firma XML: Integrar xmlsec1 CLI.
+SRI Integration: SOAP calls con reintentos.
+UI Completa: Pantallas responsive para facturación.
+PDF/Email: Generación y envío.
+Base de Datos: SQLite con esquemas.
+Seguridad: Cifrado, keystore.
+Tests: Unitarios, e2e con Playwright.
+CI/CD: GitHub Actions para packaging.

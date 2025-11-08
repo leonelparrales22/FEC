@@ -1,11 +1,13 @@
 {
   "name": "fec",
   "version": "0.1.0",
-  "private": true,
+  "description": "Sistema de Facturación Electrónica",
+  "main": "index.js",
+  "tauri": "src-tauri/tauri.conf.json",
   "scripts": {
-    "dev": "tauri dev",
-    "build": "tauri build",
-    "tauri": "tauri"
+    "dev": "cd src-tauri && tauri dev",
+    "build": "cd src-tauri && tauri build",
+    "cli": "tauri"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2.0.0"

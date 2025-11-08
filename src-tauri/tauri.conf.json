@@ -1,18 +1,13 @@
 {
-  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "productName": "FEC",
   "version": "0.1.0",
   "identifier": "com.fec.app",
   "build": {
-    "beforeDevCommand": "cd fec-frontend && npm run dev",
-    "beforeBuildCommand": "cd fec-frontend && npm run build",
-    "devPath": "http://localhost:5173",
-    "distDir": "../fec-frontend/build"
+    "frontendDist": "C:/Users/edwar/Documents/GitHub/FEC/fec-frontend/build"
   },
   "bundle": {
     "active": true,
     "targets": "all",
-    "createUpdaterBundle": false,
     "windows": {
       "certificateThumbprint": null,
       "digestAlgorithm": "sha256",

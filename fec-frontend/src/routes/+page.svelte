@@ -1,10 +1,5 @@
 <script lang="ts">
-  import { dev } from '$app/environment';
-  import { inject } from '@vercel/analytics';
-
   import '$lib/styles.css';
-
-  if (!dev) inject();
 </script>
 
 <main class="min-h-screen bg-gray-100">
