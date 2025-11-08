@@ -8,7 +8,9 @@
   "repository": "https://github.com/leonelparrales22/FEC",
   "bugs": "https://github.com/leonelparrales22/FEC/issues",
   "funding": "https://github.com/sponsors/leonelparrales22",
-  "contributors": ["Leonel Parrales"],
+  "contributors": [
+    "Leonel Parrales"
+  ],
   "private": true,
   "preferGlobal": false,
   "scripts": {
